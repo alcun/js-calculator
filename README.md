@@ -1,6 +1,7 @@
-# A Javascript calculator singlwe page app
+# A Javascript calculator single page app
 
-This is a single page web app built to function as a calculator and pass a series of tests from the freecodecamp.org Front End Development Libraries Certification.
+This is a single page web app built to function as a calculator and pass a series of tests from the freecodecamp.org Front End Development Libraries Certification:
+https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-javascript-calculator
 
 It takes input of number, operator and clear keys pressed and returns the evaluated output.
 
