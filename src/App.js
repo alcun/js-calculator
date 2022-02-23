@@ -203,8 +203,11 @@ const App = () => {
           <Display input={input} output={output} />
           <Keyboard handleInput={handleInput} />
         </div>
-        <footer>© 2022 -<a href="https://alcun.github.io/Alcun-Personal-Portfolio/">- alcun</a></footer>
-      </header>
+      <footer>
+        © 2022 -&nbsp;
+        <a href="https://alcun.github.io/Portfolio/">alcun</a>
+      </footer>
+</header>
     </div>
   );
 };
