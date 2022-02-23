@@ -136,19 +136,24 @@ button:hover{
   background-color: yellow;
 }
 
-footer {
-  background-color: black;
-  position: fixed;
-  height: calc(10px + 2vmin);
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
-  font-size: calc(2px + 2vmin);
-  font-family: monospace;
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 25px;
-  color: white;
+  footer {
+    background-color: transparent;
+    position: fixed;
+    height: calc(7px + 2vmin);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    font-size: calc(2px + 2vmin);
+    font-family: monospace;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+    
+    color: white;
 
-}
+    @include mobile {
+      overflow: hidden;
+      font-size: 12px;
+      margin-bottom: 30px;
+    }
